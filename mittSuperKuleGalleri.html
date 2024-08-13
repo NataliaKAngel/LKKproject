@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mitt Super Kule Galleri</title>
+    <link rel="stylesheet" href="stylesMittSuperKuleGalleri.css">
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="basicGalleri.html">Stage 1</a></li>
+            <li><a href="mittLilleGalleri.html">Stage 2</a></li>
+            <li><a href="mittSuperKuleGalleri.html">Stage 3</a></li>
+        </ul>
+    </nav>
+
+
+    <h1>Mitt Super Kule Galleri</h1>
+
+    <div class="gallery">
+        <div>
+            <a href="#modal1" class="image-link">
+                <img src="images/image1.png" alt="Image 1">
+            </a>
+            <p class="description">Hvordan illustrere øye</p>
+        </div>
+        <div>
+            <a href="#modal2" class="image-link">
+                <img src="images/image2.png" alt="Image 2">
+            </a>
+            <p class="description">Hvordan illustrere hår</p>
+        </div>
+        <div>
+            <a href="#modal3" class="image-link">
+                <img src="images/image3.jpg" alt="Image 3">
+            </a>
+            <p class="description">Linjer og skravering</p>
+        </div>
+    </div>
+
+    <!-- Modals for displaying larger images -->
+    <div id="modal1" class="modal">
+        <span class="close" onclick="closeModal('modal1')">&times;</span>
+        <img class="modal-content" src="images/image1.png" alt="Image 1">
+    </div>
+    
+    <div id="modal2" class="modal">
+        <span class="close" onclick="closeModal('modal2')">&times;</span>
+        <img class="modal-content" src="images/image2.png" alt="Image 2">
+    </div>
+    
+    <div id="modal3" class="modal">
+        <span class="close" onclick="closeModal('modal3')">&times;</span>
+        <img class="modal-content" src="images/image3.jpg" alt="Image 3">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
