@@ -1,0 +1,54 @@
+body {
+    
+    background-color: #121212;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+button {
+    width: 80%;
+    background-color: #333;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+}
+#logIn-form,#register-form{
+    display: none;
+
+}
+input{
+    width: 90%;
+    padding: 10px;
+    margin: 10px ;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    border: 1px solid #333;
+    border-radius: 4px;
+}
+form {
+    background-color: #121212;
+    padding: 20px;
+    border-radius: 8px;
+    
+    max-width: 400px;
+    width: 100%;
+}
+#success{
+    display: none;
+}
+
